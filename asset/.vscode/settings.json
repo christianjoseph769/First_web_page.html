@@ -1,0 +1,51 @@
+{.Graph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Graph ul{
+    display: flex;
+    margin-right: 50px;
+    font-family: calibri;
+    
+}
+.Graph li{
+    padding: 5px;
+    list-style: none;
+}
+.image{
+    margin-left: 50px;
+}
+.WE{
+    align-items: center;
+    margin-left: 50px;
+    background-color: purple;
+    width: 30%;
+    padding: 0px 30px 0px 30px;
+    font-size: 20px;
+    /* height: 5%; */
+
+    border-radius: 20px; 
+    font-family: calibri;
+    text-align: center;
+}
+Span li{
+    margin-right: 5px;
+    background-color: purple;
+    border-radius: 3px;
+}
+.build h1{
+    margin-left: 50px;
+    font-family: calibri;
+    font-size: 50px;
+}
+.commune p{
+    margin-left: 50px;
+    font-family: calibri; 
+}
+.image{
+    width: 30px; 
+    height: 30px;
+}
+    "liveServer.settings.port": 5501
+}

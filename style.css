@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(88, 44, 84);
+}
+header{
+    background-color: #fff;
+    width: 100%;
+}
+nav{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 3rem;
+    position: relative;
+    top: -1.5em;
+}
+nav ul{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 21rem;
+    align-items: center;
+}
+.Graph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.Graph ul{
+    display: flex;
+    margin-right: 50px;
+    font-family: calibri;
+    
+}
+.Graph li{
+    padding: 5px;
+    list-style: none;
+
+}
+.image{
+    margin-left: 50px;
+    display: flex;
+    justify-items: end;
+
+}
+.we{
+    margin-left: 7.5%;
+    background-color: purple;
+    width: 28rem;
+    height: 2rem;
+    font-size: 17px;
+    color: aliceblue;
+    border-radius: 20px; 
+    font-family: calibri;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: +2%;
+}
+.we a{
+    color: white;
+}
+.btn{
+    
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    align-items: center;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+.build h1{
+    margin: auto; 
+    width: 85%;
+    font-family: calibri;
+    font-size: 80px;
+    margin-top: +1%;
+    color: rgb(255, 255, 255);
+}
+.build p{
+    margin: auto;
+    font-family: calibri; 
+    color: aliceblue;
+    width: 85%;
+    font-size: 25px;
+}
+.logo{
+    margin: 85px;
+    width: 20%;
+    float: right;
+}
+.logo img{
+    width: 100%;
+    /* display: flex; */
+    margin-top: -130%;
+}
+.clear::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.space{
+    margin: 85px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10%;
+    border-spacing: 20%;
+}
+.spa{
+    position: relative;
+    top: -230px;
+    left: 1.8rem;
+}
+.spa input{
+    height: 8vh;
+    width: 25vw;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
+}
+.spa button{
+    height: 8vh;
+    width: 10vw;
+    background-color: purple;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 36em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.down{ 
+    position: relative;
+    top: -250px;
+    margin-left: 7%;
+}
+.down p{
+    margin-left: 0.3%;
+}
